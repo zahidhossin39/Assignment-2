@@ -1,38 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment-2</title>
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
     <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-
-<body class="open-sans">
-<header>
-    <!-- navbar -->
-    <nav>
-        <h1 class="logo">
-            Tech<span>Wave</span>
-        </h1>
+  <body class="open-sans">
+    <header>
+      <!-- navbar -->
+      <nav>
+        <h1 class="logo">Tech<span>Wave</span></h1>
         <div class="menu">
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Episodes</a></li>
-                <li><a href="#">Host</a></li>
-                
-            </ul>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Episodes</a></li>
+            <li><a href="#">Host</a></li>
+          </ul>
         </div>
-        <div class="btn">
-            <button>Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+        <div class="btn-Subscribe">
+          <button>Subscribe <i class="fa-solid fa-arrow-right"></i></button>
         </div>
-    </nav>
-</header>
-</body>
+        <div class="bars"><i class="fa-solid fa-bars"></i></div>
+      </nav>
+
+        <!-- hero section -->
+         <section class="hero">
+            <div class="hero-container">
+                <div class="mic-container">
+                    <img class="circle" src="./images/hero-circle.png" alt="circle">
+
+                    <img class="microphone" src="./images/microphone.png" alt="microphone" />
+                    <span class="badge-new">NEW</span>
+                </div>
+                <br>
+                <div class="hero-title">
+                    <h1>TechWave</h1>
+                <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                </div>
+                <div class="cta-button">
+                    <button class="btn-1"> <img src="images/spotify.png" alt="" class="btn-img">Listen On Spotify</button>
+                    <button class="btn-2"><img src="images/message.png" alt="" class="btn-img"> Subscribe</button>
+                </div>
+            </div>
+         </section>
+    </header>
+  </body>
 </html>
