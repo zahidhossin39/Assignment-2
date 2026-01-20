@@ -388,6 +388,138 @@ animation: badge-glow 1.5s ease-in-out infinite alternate;
   margin: 0;
 }
 
+/* Featured Episodes and Host  */
+
+.Featured-and-Host-container{
+  max-width: 1600px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 40px;
+    margin-top: 120px;
+    font-weight: 700;
+}
+
+.episodes-grid {
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+    gap: 25px;
+    margin-bottom: 80px;
+}
+
+.episode-card {
+    background: rgba(37, 13, 68, 1); 
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 360px;
+    height: 440px;
+}
+
+.episode-card:hover {
+    transform: translateY(-10px);
+}
+
+.video-container iframe {
+    
+   width: 380px;
+   height: 214px;
+}
+.episode-content {
+    padding: 24px;
+}
+
+.episode-content h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.episode-content p {
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #cac8c8;
+}
+
+.duration {
+    display: flex;
+    align-items: center;
+    color: #00ff88; 
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.duration i{
+
+  padding-right: 22px;
+}
+
+/* Host Section */
+.host-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 30px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.host-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #120321;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5); 
+}
+
+.host-info h3 {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.host-info p {
+    color: #b0a4bd;
+    margin-bottom: 16px;
+}
+
+.social-links {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+
+}
+
+.social-links i {
+   width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background: none;
+    padding: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+
+.social-links img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+
+
+
+
 
 
 /*! Responsive section */
